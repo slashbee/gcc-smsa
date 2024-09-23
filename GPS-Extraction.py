@@ -61,7 +61,7 @@ def convert_to_degrees(value):
     return d + (m / 60.0) + (s / 3600.0)
 
 ## def lambda_handler(event, context):
-image_path = 'images/nemili.jpg'
+image_path = 'images/tweet.jpg'
 img = Image.open(image_path)
 exif_data = get_exif(img)
 if 'GPSInfo' in exif_data:
